@@ -318,7 +318,7 @@ describe("WithPrefix", () => {
   it("nested prefixes concatenate with dot", () => {
     const w = new MockWriter()
     const l = Logger.newWithOptions(w, { ReportTimestamp: false, Formatter: TextFormatter })
-    const child = l.WithGroup("db")
+    const child = l.WithGroup("db") as any
     child.info("connected")
     expect(w.data).toContain("db:")
   })
