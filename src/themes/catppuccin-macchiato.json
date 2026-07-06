@@ -1,0 +1,16 @@
+{
+  "timestamp": { "foreground": "#5b6078" },
+  "caller": { "foreground": "#5b6078" },
+  "prefix": { "foreground": "#cad3f5", "bold": true },
+  "message": { "foreground": "#cad3f5" },
+  "key": { "foreground": "#5b6078" },
+  "value": { "foreground": "#cad3f5" },
+  "pair": { "foreground": "#363a4f" },
+  "levels": {
+    "debug": { "foreground": "#5b6078", "bold": true },
+    "info": { "foreground": "#a6da95", "bold": true },
+    "warn": { "foreground": "#eed49f", "bold": true },
+    "error": { "foreground": "#ed8796", "bold": true },
+    "fatal": { "foreground": "#c6a0f6", "bold": true }
+  }
+}
