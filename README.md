@@ -19,7 +19,7 @@ bun add github:yum-tty/sprinkles
 Or install from a specific package:
 
 ```bash
-bun add sprinkles
+bun add @yum-tty/sprinkles
 ```
 
 ## Quick Start
